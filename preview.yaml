@@ -19,7 +19,7 @@ spec:
           host: "{{.HOSTNAME}}"
       version: v3
   destination:
-    namespace: previews
+    namespace: "{{.APP_ID}}"
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
