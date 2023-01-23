@@ -19,7 +19,7 @@ spec:
         ingress:
           host: "pr-argocd-previews-poc-1.127.0.0.1.nip.io"
       version: v3
-    path: helm
+    path: project-templates
     repoURL: https://github.com/TomasRebro/argocd-previews-poc.git
     targetRevision: HEAD
   syncPolicy:
