@@ -8,7 +8,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: previews
+    namespace: pr-argocd-previews-poc-1
     server: https://kubernetes.default.svc
   project: previews
   source:
