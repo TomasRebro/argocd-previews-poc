@@ -1,5 +1,5 @@
 image:
-  repository: yeasy/simple-web
+  repository: tomasrebro33/demo-nextjs
   tag: latest
   pullPolicy: IfNotPresent
 ingress:
